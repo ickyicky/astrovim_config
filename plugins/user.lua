@@ -16,7 +16,7 @@ return {
       vim.keymap.set("i", "<C-e>", function() return vim.fn["codeium#Accept"]() end, { expr = true })
       vim.keymap.set("i", "<C-q>", function() return vim.fn["codeium#CycleCompletions"](1) end, { expr = true })
       vim.keymap.set("i", "<C-w>", function() return vim.fn["codeium#CycleCompletions"](-1) end, { expr = true })
-      vim.keymap.set("i", "<c-r>", function() return vim.fn["codeium#Clear"]() end, { expr = true })
+      vim.keymap.set("i", "<c-r>", function() return vim.fn["codeium#Complete"]() end, { expr = true })
     end,
     lazy = false,
   },
