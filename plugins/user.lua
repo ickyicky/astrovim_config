@@ -25,6 +25,10 @@ return {
     lazy = false,
   },
   {
+    "folke/lsp-colors.nvim",
+    lazy = false,
+  },
+  {
     "zbirenbaum/copilot.lua",
     cmd = "Copilot",
     event = "User AstroFile",
