@@ -4,7 +4,8 @@ return {
     -- set to true or false etc.
     relativenumber = true, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
-    spell = false, -- sets vim.opt.spell
+    spell = true, -- sets vim.opt.spell
+    spelllang = "en_us,pl", -- sets vim.opt.spell.spelllang
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = true, -- sets vim.opt.wrap
     termguicolors = true,
