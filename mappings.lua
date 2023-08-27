@@ -28,4 +28,7 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  x = {
+    ["<C-p>"] = { "\"_dP", desc = "Paste without replacing main buff" },
+  },
 }
